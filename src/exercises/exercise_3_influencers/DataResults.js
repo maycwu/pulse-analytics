@@ -6,7 +6,7 @@ function DataResults({data}) {
     <div>
       {data.map((obj) => (
         <div>
-          <p><strong>Member:</strong> {obj.member} </p>
+          <h3>Member: {obj.member} </h3>
           <p><strong>Type:</strong> {obj.influencerType} </p>
           <p><strong>Category:</strong> {obj.indicationCategory} </p>
           <p><strong>Affiliation:</strong> {obj.affiliation}</p>
